@@ -1,7 +1,15 @@
-#include<stdio.h>
+#include<iostream>
+
+using namespace std;
 
 void main() {
-	printf("TEST PROGRAM");
-}
+	int n;
+	cin >> n;
 
-//IDK how to sync github and visual studio....
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < i+1; j++) {
+			cout << "*";
+		}
+		cout<< endl;
+	}
+}
